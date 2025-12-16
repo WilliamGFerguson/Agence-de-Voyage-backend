@@ -13,30 +13,29 @@ Ce projet a pour objectif de démontrer mes compétences en développement backe
 Fonctionnalités principales
 
 Gestion des voyages (CRUD)
-   -	Création, lecture, mise à jour et suppression de voyages
-   -	Chaque voyage contient les informations nécessaires à une réservation (destination, dates, prix, disponibilité, etc.)
+   -	Création, lecture, mise à jour et suppression de voyages.
+   -	Chaque voyage contient les informations nécessaires à une réservation (destination, dates, prix, disponibilité, etc.).
 Rôles et permissions
-   -	Accès administrateur pour la gestion des voyages
-   -	L’administrateur peut :
-      o	Ajouter de nouveaux voyages
-      o	Modifier les voyages existants
-      o	Supprimer des voyages
+   -	Accès administrateur pour la gestion des voyages.
+   -	L’administrateur peut ajouter de nouveaux voyages, modifier les voyages existants et supprimer des voyages.
 Authentification et sécurité
-   -	Authentification basée sur JWT (JSON Web Tokens)
-   -	Protection des routes sensibles via des middlewares
+   -	Authentification basée sur JWT (JSON Web Tokens).
+   -	Protection des routes sensibles via des middlewares.
 Réservations de voyages
-   -	Possibilité pour un utilisateur authentifié de réserver un voyage
-   -	Validation des données avant enregistrement
+   -	Possibilité pour un utilisateur authentifié de réserver un voyage.
+   -	Validation des données avant enregistrement.
 Code asynchrone et gestion des erreurs
-   -	Utilisation d’async / await
-   -	Gestion centralisée des erreurs
-   -	Réponses API claires et cohérentes
+   -	Utilisation d’async / await.
+   -	Gestion centralisée des erreurs.
+   -	Réponses API claires et cohérentes.
+
 Technologies utilisées
    -	Node.js / Express.js
    -	TypeScript
    -	MongoDB avec Mongoose
    -	JWT pour l’authentification
    -	CORS pour la gestion des accès cross-origin
+
 Architecture du projet
    -	Architecture inspirée du MVC, avec une séparation claire des responsabilités (routes, controllers, services et modèles)
    -	Utilisation de middlewares pour :
