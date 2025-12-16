@@ -31,17 +31,13 @@ Code asynchrone et gestion des erreurs
    -	Utilisation d’async / await
    -	Gestion centralisée des erreurs
    -	Réponses API claires et cohérentes
-
 Technologies utilisées
-
    -	Node.js / Express.js
    -	TypeScript
    -	MongoDB avec Mongoose
    -	JWT pour l’authentification
    -	CORS pour la gestion des accès cross-origin
-
 Architecture du projet
-
    -	Architecture inspirée du MVC, avec une séparation claire des responsabilités (routes, controllers, services et modèles)
    -	Utilisation de middlewares pour :
       o	Authentification
