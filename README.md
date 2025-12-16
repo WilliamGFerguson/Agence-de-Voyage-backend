@@ -1,6 +1,6 @@
-API Backend – Application d’agence de voyage
+# API Backend – Application d’agence de voyage
 
-Description du projet
+## Description du projet
 
 Ce projet est une API backend pour une application d’agence de voyage dédiée à la réservation de séjours. Il se concentre exclusivement sur la logique serveur et n’inclut pas de frontend, afin de mettre en valeur les compétences backend et l’architecture de l’application.
 
@@ -10,40 +10,49 @@ L’application intègre une authentification sécurisée basée sur JWT, avec d
 
 Ce projet a pour objectif de démontrer mes compétences en développement backend, notamment la conception d’API REST, la gestion de bases de données, la sécurité, le traitement asynchrone et la structuration d’un projet professionnel à l’aide de Express.js et TypeScript.
 
-Fonctionnalités principales
+## Fonctionnalités principales
 
-Gestion des voyages (CRUD)
-   -	Création, lecture, mise à jour et suppression de voyages
-   -	Chaque voyage contient les informations nécessaires à une réservation (destination, dates, prix, disponibilité, etc.)
+### Gestion des voyages (CRUD)
+- Création, lecture, mise à jour et suppression de voyages
+- Chaque voyage contient les informations nécessaires à une réservation  
+  (destination, dates, prix, disponibilité, etc.)
 
-Rôles et permissions
-   -	Accès administrateur pour la gestion des voyages
-   -	L’administrateur peut ajouter de nouveaux voyages, modifier les voyages existants et supprimer des voyages
+### Rôles et permissions
+- Accès administrateur pour la gestion des voyages
+- L’administrateur peut :
+  - Ajouter de nouveaux voyages
+  - Modifier les voyages existants
+  - Supprimer des voyages
 
-Authentification et sécurité
-   -	Authentification basée sur JWT (JSON Web Tokens)
-   -	Protection des routes sensibles via des middlewares
+### Authentification et sécurité
+- Authentification basée sur JWT (JSON Web Tokens)
+- Protection des routes sensibles via des middlewares
 
-Réservations de voyages
-   -	Possibilité pour un utilisateur authentifié de réserver un voyage.
-   -	Validation des données avant enregistrement
+### Réservations de voyages
+- Possibilité pour un utilisateur authentifié de réserver un voyage
+- Validation des données avant enregistrement
 
-Code asynchrone et gestion des erreurs
-   -	Utilisation d’async / await
-   -	Gestion centralisée des erreurs
-   -	Réponses API claires et cohérentes
+### Code asynchrone et gestion des erreurs
+- Utilisation de `async / await`
+- Gestion centralisée des erreurs
+- Réponses API claires et cohérentes
 
-Technologies utilisées
-   -	Node.js / Express.js
-   -	TypeScript
-   -	MongoDB avec Mongoose
-   -	JWT pour l’authentification
-   -	CORS pour la gestion des accès cross-origin
+## Technologies utilisées
+- Node.js / Express.js
+- TypeScript
+- MongoDB avec Mongoose
+- JWT pour l’authentification
+- CORS pour la gestion des accès cross-origin
 
-Architecture du projet
-   -	Architecture inspirée du MVC, avec une séparation claire des responsabilités (routes, controllers, services et modèles)
-   -	Utilisation de middlewares pour :
-      o	Authentification
-      o	Autorisation
-      o	Gestion des erreurs
-   -	Modèle de données définis avec Mongoose
+## Architecture du projet
+- Architecture inspirée du MVC
+- Séparation claire des responsabilités :
+  - Routes
+  - Controllers
+  - Services
+  - Modèles
+- Utilisation de middlewares pour :
+  - Authentification
+  - Autorisation
+  - Gestion des erreurs
+- Modèles de données définis avec Mongoose
